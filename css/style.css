@@ -1,0 +1,359 @@
+header {
+  color: #fff;
+  height: 112px;
+  line-height: 112px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+header a.logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+  font-weight: bold;
+}
+
+header nav ul li {
+  padding-left: 30px;
+}
+
+header nav ul li a {
+  transition: all 0.3s ease-in;
+  color: white;
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+a:focus {
+  color: white;
+}
+
+/**** slider section***/
+
+slider,
+.slider ul.slider-carousel,
+.slider ul.slider-carousel li {
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  color: white;
+}
+.slider ul.slider-carousel li h1 {
+  margin-bottom: 40px;
+  margin-top: 150px;
+  color: white;
+}
+.slider ul.slider-carousel li p {
+  margin-bottom: 50px;
+}
+.img {
+  background-image: url(img/slider/slider1.png);
+  background-size: (100% 100%);
+}
+.img2 {
+  background-image: url(img/slider/slider2.png);
+  background-size: cover;
+}
+.img3 {
+  background-image: url(img/slider/slider3.png);
+  background-size: cover;
+}
+
+.slider ul li a {
+  padding: 10px 30px;
+  margin-right: 30px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+
+.slider ul li a:last-child {
+  margin-right: 0px;
+}
+.slider ul li a.cta1:hover {
+  background-color: lightcoral;
+}
+.slider ul li a.cta2:hover {
+  background-color: lightblue;
+}
+
+.services .services-content i {
+  font-size: 40px;
+  color: black;
+}
+.services-header,
+.portfolio-header,
+.testimonials-header,
+.blog-header,
+.contact-header {
+  text-align: center;
+  margin-bottom: 42px;
+}
+.portfolio {
+  background-image: url(img/portfolio/portfolio-bg.png);
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.portfolio .inner-content {
+  position: relative;
+  width: 265px;
+  height: 225px;
+}
+.portfolio .inner-content .img {
+  background-size: cover;
+}
+.portfolio .inner-content .overlay-content {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in;
+}
+.portfolio .inner-content .overlay-content h3,
+.portfolio .inner-content .overlay-content p {
+  color: white;
+}
+.portfolio .inner-content .overlay-content h3 {
+  padding-top: 70px;
+  color: orangered;
+}
+.portfolio .inner-content:hover .overlay-content {
+  top: 0px;
+}
+.portfolio .inner-content .overlay-content p a {
+  color: skyblue;
+  font-weight: bold;
+}
+.portfolio .portfolio-nav {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 50%;
+  display: flex;
+}
+.portfolio .portfolio-nav li {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.portfolio .portfolio-nav li:hover {
+  background-color: coral;
+}
+
+/**** team section***/
+.team .team-header h1,
+.team .team-header p {
+  text-align: center;
+}
+.team .inner-content {
+  position: relative;
+  width: 265px;
+  height: 225px;
+}
+
+.team .inner-content .overlay-content {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in;
+}
+
+.team .inner-content:hover .overlay-content {
+  top: 0px;
+}
+
+.team .team-nav {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 50%;
+}
+.team .team-nav li {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.team .team-nav li:hover {
+  background-color: coral;
+}
+.team-carousel .inner-content p:first-child {
+  padding-top: 24px;
+  font-size: 25px;
+}
+.team-carousel .inner-content p {
+  padding-top: 5px;
+}
+ul.member-social-links li {
+  color: #fff;
+  font-size: 24px;
+  width: 28px;
+  height: 28px;
+  margin: 0 4px;
+}
+ul.member-social-links li a {
+  color: white;
+}
+
+/***testimonials****/
+
+.testimonials {
+  background-image: url(img/testi-bg.png);
+  background-attachment: fixed;
+  color: white;
+}
+.testimonials .testimonials-header {
+  text-align: center;
+}
+.testimonials .testimonials-header h1 {
+  color: white;
+}
+.testimonials .testimonial-carousel li {
+  text-align: center;
+}
+blockquote {
+  border: none;
+  width: 1000px;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+.testipager {
+  text-align: center;
+}
+.testimonial-carousel li img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.testimonial-carousel li p.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: orangered;
+}
+.testimonial-carousel li p.position {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 20px;
+}
+.testipager li {
+  margin-right: 30px;
+}
+.testipager li a:hover,
+.testipager li.selected a {
+  color: orangered;
+}
+.testipager li a {
+  color: white;
+}
+/****blog-section*****/
+.blog .blog-header p {
+  line-height: 25px;
+}
+.blog .blog-header h2 {
+  font-weight: 900;
+  color: deepskyblue;
+}
+.blog-header h2 a:hover {
+  color: coral;
+}
+
+/***contact-section***/
+
+.contact {
+  background-image: url(./img/contact-bg.png);
+  background-attachment: fixed;
+}
+form.contact-form {
+  width: 40%;
+  margin: 0 auto;
+}
+input:not([type="submit"]),
+textarea {
+  width: 100%;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+input:not([type="submit"]) {
+  height: 40px;
+  line-height: 20px;
+}
+textarea {
+  padding-top: 10px;
+}
+#submit {
+  padding: 10px 30px;
+  color: white;
+  background-color: coral;
+  border: none;
+  font-weight: bold;
+}
+/*footer styles*/
+footer {
+  padding-top: 56px;
+}
+footer h1 {
+  padding-bottom: 26px;
+}
+footer .about {
+  padding-bottom: 20px;
+}
+footer .font i {
+  padding-right: 20px;
+  font-size: 20px;
+  color: coral;
+  font-weight: bold;
+}
+form input:not([type="submit"]) {
+  width: 80%;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+footer i {
+  padding-right: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.footer-social-links li a i.fa-youtube {
+  color: red;
+}
+.footer-social-links li a i.fa-facebook {
+  color: #3b5998l;
+}
+.footer-social-links li a i.fa-twitter {
+  color: #00aced;
+}
+.copyright {
+  background-color: black;
+  color: white;
+  line-height: 29px;
+  height: 29px;
+  line-height: 20px;
+  margin-top: 56px;
+}
